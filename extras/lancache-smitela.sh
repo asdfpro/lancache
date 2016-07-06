@@ -2,7 +2,7 @@
 # Stop NGINX service
 service nginx stop
 # Add SmiteLA to lancache.conf
-cat >> /etc/nginx/sites/lancache.conf <<EOF
+cat >> /etc/nginx/vhosts/lancache.conf <<EOF
 # Smite LA (LevelUP)
 server {
 	listen lancache-smitela default;
