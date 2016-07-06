@@ -7,8 +7,8 @@ service nginx stop
 mv /etc/nginx/nginx.conf /etc/nginx/nginx.conf.backup
 # Copy of LAN Cache files
 cp -r /opt/lancache/nginx.conf /etc/nginx/nginx.conf
+cp -r /opt/lancache/vhosts/lancache.conf /etc/nginx/vhosts/lancache.conf
 cp -r /opt/lancache/lancache /etc/nginx/lancache
-cp -r /opt/lancache/vhosts /etc/nginx/vhosts
 # Modify with 1 unused IP for each hostname
 cat >> /etc/hosts <<EOF
 # LAN Cache host names
