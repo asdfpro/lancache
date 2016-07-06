@@ -2,7 +2,7 @@
 # Stop NGINX service
 service nginx stop
 # Add Sony to lancache.conf
-cat >> /etc/nginx/sites/lancache.conf <<EOF
+cat >> /etc/nginx/vhosts/lancache.conf <<EOF
 # Sony
 server {
 	listen lancache-sony default;
