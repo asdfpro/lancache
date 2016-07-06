@@ -9,6 +9,12 @@ address=/lineage2.patcher.gtm.ncsoft.com/192.168.0.0
 address=/lineage2.patcher.ncsoft.com.cdngc.net/192.168.0.0
 address=/live.patcher.bladeandsoul.com/192.168.0.0
 address=/live.patcher.bladeandsoul.com.cdngc.net/192.168.0.0
+address=/aion.patcher.ncsoft.com/192.168.0.0
+address=/aion.patcher.gtm.ncsoft.com/192.168.0.0
+address=/aion.patcher.ncsoft.com.cdngc.net/192.168.0.0
+address=/wildstar.patcher.ncsoft.com/192.168.0.0
+address=/wildstar.patcher.gtm.ncsoft.com/192.168.0.0
+address=/wildstar.patcher.ncsoft.com.cdngc.net/192.168.0.0
 ```
 
 ## lancache-enmasse
