@@ -2,7 +2,7 @@
 # Stop NGINX service
 service nginx stop
 # Add En Masse to lancache.conf
-cat >> /etc/nginx/sites/lancache.conf <<EOF
+cat >> /etc/nginx/vhosts/lancache.conf <<EOF
 # ENMASSE
 server {
 	listen lancache-enmasse default;
