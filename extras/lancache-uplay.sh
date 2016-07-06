@@ -2,7 +2,7 @@
 # Stop NGINX service
 service nginx stop
 # Add Uplay to lancache.conf
-cat >> /etc/nginx/sites/lancache.conf <<EOF
+cat >> /etc/nginx/vhosts/lancache.conf <<EOF
 # Uplay (Ubisoft)
 server {
 	listen lancache-uplay default;
